@@ -17,6 +17,33 @@ export const projects = [
     visit: 'https://vetconsultweb.netlify.app/',
     id: 1,
   },
+  {
+    title: 'LoanVest',
+    description:"This is basically a FinTech application which helps you to apply for loans and at the same time invest is any venture of your choice. It is very user friendly.",
+    image: '/images/loanvest2.png',
+    tags: ['React.js', 'Firebase'],
+    source: 'https://github.com/AbaniwoM/loanvest',
+    visit: 'https://loanvest.netlify.app/',
+    id: 2,
+  },
+  {
+    title: 'ZuriChat',
+    description:"I worked with a team which built the ZuriChat web application. It is basically a site that makes comfortable remote working possible!",
+    image: '/images/zurichat.png',
+    tags: ['React.js', 'SPA'],
+    visit: 'https://zuri.chat/',
+    id: 3,
+  },
+  
+  {
+    title: 'SkyHigh Sales Data App',
+    description:"This is a FinTech application which helps you to track your sales for four years back depending on the API endpoint given. It is very user friendly.",
+    image: '/images/skyhigh.png',
+    tags: ['React.js', 'Flex Monster'],
+    source: 'https://github.com/AbaniwoM/skyhigh-data-app',
+    visit: 'https://skyhigh-sales-data-app.netlify.app/',
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [
