@@ -1,21 +1,12 @@
 export const projects = [
   {
-    title: 'VetConsult',
-    description:"I worked with a team which built the VetConsult web application. It is basically a site that bridges the gap between the veterinary doctors and pet owners.",
-    image: '/images/about-hero.jpeg',
-    tags: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Node.js'],
-    source: 'https://github.com/AbaniwoM/vetconsult-fe-pjt-46/tree/dev',
-    visit: 'https://vetconsultweb.netlify.app/',
-    id: 0,
-  },
-  {
     title: 'LoanVest',
     description:"This is basically a FinTech application which helps you to apply for loans and at the same time invest is any venture of your choice. It is very user friendly.",
     image: '/images/loanvest2.png',
     tags: ['React.js', 'Firebase'],
     source: 'https://github.com/AbaniwoM/loanvest',
     visit: 'https://loanvest.netlify.app/',
-    id: 1,
+    id: 0,
   },
   {
     title: 'SkyHigh Sales Data Application',
@@ -24,7 +15,7 @@ export const projects = [
     tags: ['React.js', 'Flex Monster'],
     source: 'https://github.com/AbaniwoM/skyhigh-data-app',
     visit: 'https://skyhigh-sales-data-app.netlify.app/',
-    id: 2,
+    id: 1,
   },
   {
     title: 'Bible Quiz Application',
@@ -33,7 +24,7 @@ export const projects = [
     tags: ['React.js'],
     source: 'https://github.com/AbaniwoM/soulwinners-bible-quiz-app',
     visit: 'https://the-soulwinners-bible-quiz-app.netlify.app/',
-    id: 3,
+    id: 2,
   },
   {
     title: 'My Pasteries Application',
@@ -42,8 +33,17 @@ export const projects = [
     tags: ['React.js'],
     source: 'https://github.com/AbaniwoM/Pastery-app',
     visit: 'https://my-pasteries.netlify.app/',
+    id: 3,
+  },
+  {
+    title: 'VetConsult',
+    description:"I worked with a team which built the VetConsult web application. It is basically a site that bridges the gap between the veterinary doctors and pet owners.",
+    image: '/images/about-hero.jpeg',
+    tags: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Node.js'],
+    source: 'https://github.com/AbaniwoM/vetconsult-fe-pjt-46/tree/dev',
+    visit: 'https://vetconsultweb.netlify.app/',
     id: 4,
-  }  
+  } 
 ];
 
 export const TimeLineData = [
