@@ -52,12 +52,24 @@ export const List = styled.ul`
 
 export const ListContainer = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  width: 190%;
 
   @media ${props => props.theme.breakpoints.sm}{
     display: flex;
     margin-left: 18px;
   }
+`
+
+export const ContentList = styled.div`
+  display: flex;
+  flex-direction: column;
+`
+
+export const ContentList2 = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
 `
 
 export const ListTitle = styled.h4`

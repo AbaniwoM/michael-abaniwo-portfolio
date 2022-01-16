@@ -1,7 +1,7 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle, ContentList, ContentList2 } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
@@ -9,17 +9,26 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have worked with a range of frontend technologies in the web development world.
+      I have worked with a range of Frontend and Backend technologies in the web development world.
     </SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
+          <ContentList>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            JavaScript, React.js, HTML5, CSS3.
+            JavaScript, React.js, HTML5, CSS3, Next.js, Tailwind CSS.
           </ListParagraph>
+          </ContentList>
+          <ContentList2>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Node.js, Passport.js, ejs, MongoDB.
+          </ListParagraph>
+          </ContentList2>
         </ListContainer>
       </ListItem>
     </List>
