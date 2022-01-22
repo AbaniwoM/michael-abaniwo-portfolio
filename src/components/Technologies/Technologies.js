@@ -26,7 +26,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js, Passport.js, ejs, MongoDB.
+            Node.js, Passport.js, ejs, MongoDB, Express.
           </ListParagraph>
           </ContentList2>
         </ListContainer>
