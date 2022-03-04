@@ -9,13 +9,31 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'Budget Tracker Application',
+    description:"An Application used to track your income and expense to enable you plan your budget",
+    image: '/images/expense_tracker_app.png',
+    tags: ['React.js', 'Material-ui'],
+    source: 'https://github.com/AbaniwoM/budget_tracker_app',
+    visit: 'https://my-income-expense-tracker-app.netlify.app/',
+    id: 1,
+  },
+  {
+    title: 'REST API Project',
+    description:"This is basically a project which involves consuming the endpoints from an available API. It displays loading time with conditional-rendering and manages the contents of the API with React.js.",
+    image: '/images/form_plus.png',
+    tags: ['React.js', 'css-grid', 'conditional-rendering', 'hooks-api-react'],
+    source: 'https://github.com/AbaniwoM/formplus-task',
+    visit: 'https://mike-abaniwos-form-plus-technical-task.netlify.app/',
+    id: 2,
+  },
+  {
     title: 'Bible Quiz Application',
     description:"This is a Quiz application built for The SOUL Winner Evangelism platform online. It was built with React.js. Fully responsive.",
     image: '/images/soul-quiz.png',
     tags: ['React.js'],
     source: 'https://github.com/AbaniwoM/soulwinners-bible-quiz-app',
     visit: 'https://the-soulwinners-bible-quiz-app.netlify.app/',
-    id: 1,
+    id: 3,
   },
   {
     title: 'My Pasteries Application',
@@ -24,7 +42,7 @@ export const projects = [
     tags: ['React.js'],
     source: 'https://github.com/AbaniwoM/Pastery-app',
     visit: 'https://my-pasteries.netlify.app/',
-    id: 2,
+    id: 4,
   },
   {
     title: 'LoanVest',
@@ -33,7 +51,7 @@ export const projects = [
     tags: ['React.js', 'Firebase'],
     source: 'https://github.com/AbaniwoM/loanvest',
     visit: 'https://loanvest.netlify.app/',
-    id: 3,
+    id: 5,
   },
   {
     title: 'VetConsult',
@@ -42,7 +60,7 @@ export const projects = [
     tags: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Node.js'],
     source: 'https://github.com/AbaniwoM/vetconsult-fe-pjt-46/tree/dev',
     visit: 'https://vetconsultweb.netlify.app/',
-    id: 4,
+    id: 6,
   } 
 ];
 
