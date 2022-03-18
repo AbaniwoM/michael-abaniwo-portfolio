@@ -18,7 +18,7 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'REST API Project',
+    title: 'REST API React Project',
     description:"This is basically a project which involves consuming the endpoints from an available API. It displays loading time with conditional-rendering and manages the contents of the API with React.js.",
     image: '/images/form_plus.png',
     tags: ['React.js', 'css-grid', 'conditional-rendering', 'hooks-api-react'],
@@ -54,13 +54,22 @@ export const projects = [
     id: 5,
   },
   {
+    title: 'Material-ui/React-media-app',
+    description:"This is a unique media app built with Material-ui and React.js. It covers the basic functionalities of material-ui.",
+    image: '/images/react-material.png',
+    tags: ['React.js', 'material-ui'],
+    source: 'https://github.com/AbaniwoM/material-ui-react-media-app',
+    visit: 'https://material-ui-react-media-app.netlify.app/',
+    id: 6,
+  },
+  {
     title: 'VetConsult',
     description:"I worked with a team which built the VetConsult web application. It is basically a site that bridges the gap between the veterinary doctors and pet owners.",
     image: '/images/about-hero.jpeg',
     tags: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Node.js'],
     source: 'https://github.com/AbaniwoM/vetconsult-fe-pjt-46/tree/dev',
     visit: 'https://vetconsultweb.netlify.app/',
-    id: 6,
+    id: 7,
   } 
 ];
 

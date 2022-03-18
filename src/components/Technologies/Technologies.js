@@ -19,7 +19,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            JavaScript, React.js, HTML5, CSS3, Next.js, Tailwind CSS.
+            JavaScript, React.js, HTML5, CSS3, Next.js, Tailwind CSS, Material-ui.
           </ListParagraph>
           </ContentList>
           <ContentList2>
