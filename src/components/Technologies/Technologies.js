@@ -22,7 +22,13 @@ const Technologies = () =>  (
             JavaScript, React.js, HTML5, CSS3, Next.js, Tailwind CSS, Material-ui.
           </ListParagraph>
           </ContentList>
-          <DiNodejsSmall size="3rem"/>
+        </ListContainer>
+      </ListItem>
+    </List>
+    <List>
+      <ListItem>
+        <DiNodejsSmall size="3rem"/>
+        <ListContainer>
           <ContentList2>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
