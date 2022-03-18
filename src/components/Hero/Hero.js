@@ -12,7 +12,7 @@ const Hero = () => (
         Michael Abaniwo
       </SectionTitle>
       <SectionText>
-      Michael Abaniwo is a Full Stack Web Developer with experience in building highly performant websites. Michael is very excited and passionate about user experience and interfaces, making sure that these interfaces are properly implemented with Frontend and Backend languages in real-time. Michael also has passion for very fast and highly performant websites. He ensures that the implementation of these websites meets predefined expectation and that delivery is in good time.
+      Michael Abaniwo is a Software Developer with experience in building highly performant websites. Michael is very excited and passionate about user experience and interfaces, making sure that these interfaces are properly implemented with Frontend and Backend languages in real-time. Michael also has passion for very fast and highly performant websites. He ensures that the implementation of these websites meets predefined expectation and that delivery is in good time.
       </SectionText>
       <Button onClick={() => window.location = 'https://www.linkedin.com/in/michael-abaniwo-521620193/'}>Learn More</Button>
     </LeftSection>
