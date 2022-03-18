@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiNodejsSmall, DiReact } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, ContentList, ContentList2 } from './TechnologiesStyles';
 
@@ -22,6 +22,7 @@ const Technologies = () =>  (
             JavaScript, React.js, HTML5, CSS3, Next.js, Tailwind CSS, Material-ui.
           </ListParagraph>
           </ContentList>
+          <DiNodejsSmall size="3rem"/>
           <ContentList2>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
