@@ -69,7 +69,6 @@ export const ContentList = styled.div`
 export const ContentList2 = styled.div`
   display: flex;
   flex-direction: column;
-  margin-left: 120px;
 `
 
 export const ListTitle = styled.h4`
