@@ -14,7 +14,9 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:michaelabaniwo@gmail.com">michaelabaniwo@gmail.com</LinkItem>
+          <LinkItem href="mailto:michaelabaniwo@gmail.com">
+            michaelabaniwo@gmail.com
+          </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
@@ -22,15 +24,15 @@ const Footer = () => {
           <Slogan>Bringing you code with a touch from Heaven</Slogan>
         </CompanyContainer>
         <SocialContainer>
-        <SocialIcons href="https://github.com/AbaniwoM">
-          <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/michael-abaniwo-521620193/">
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://www.instagram.com/__codedr/">
-          <AiFillInstagram size="3rem" />
-        </SocialIcons>
+          <SocialIcons href="https://github.com/AbaniwoM">
+            <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://www.linkedin.com/in/michael-abaniwo-521620193/">
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://www.instagram.com/michaelabaniwo_s/">
+            <AiFillInstagram size="3rem" />
+          </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
