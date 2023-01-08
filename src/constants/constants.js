@@ -1,12 +1,12 @@
 export const projects = [
   {
-    title: "Budget Tracker Application",
+    title: "Blogging API Endpoint v1",
     description:
-      "An Application used to track your income and expense to enable you plan your budget",
-    image: "/images/expense_tracker_app.png",
-    tags: ["React.js", "Material-ui"],
-    source: "https://github.com/AbaniwoM/budget_tracker_app",
-    visit: "https://my-income-expense-tracker-app.netlify.app/",
+      "The Blogging API allows Developers work with files which have the functionality of user authentication, ability to secure login routes, create blog posts, update blog post, delete blog posts and view all blog posts.",
+    image: "/images/blg.png",
+    tags: ["Nodejs", "API", "Express"],
+    source: "https://github.com/AbaniwoM/Blogging-API-Updated-Project",
+    visit: "https://elated-sweatpants-bear.cyclic.app/",
     id: 0,
   },
   {
@@ -24,7 +24,7 @@ export const projects = [
     description:
       "This is a Quiz application built for The SOUL Winner Evangelism platform online. It was built with React.js. Fully responsive.",
     image: "/images/soul-quiz.png",
-    tags: ["React.js"],
+    tags: ["React.js", "Redux"],
     source: "https://github.com/AbaniwoM/soulwinners-bible-quiz-app",
     visit: "https://the-soulwinners-bible-quiz-app.netlify.app/",
     id: 2,
@@ -40,16 +40,6 @@ export const projects = [
     id: 3,
   },
   {
-    title: "LoanVest",
-    description:
-      "This is basically a FinTech application which helps you to apply for loans and at the same time invest is any venture of your choice. It is very user friendly.",
-    image: "/images/loanvest2.png",
-    tags: ["React.js", "Firebase"],
-    source: "https://github.com/AbaniwoM/loanvest",
-    visit: "https://loanvest.netlify.app/",
-    id: 4,
-  },
-  {
     title: "Material-ui/React-media-app",
     description:
       "This is a unique media app built with Material-ui and React.js. It covers the basic functionalities of material-ui.",
@@ -57,7 +47,7 @@ export const projects = [
     tags: ["React.js", "material-ui"],
     source: "https://github.com/AbaniwoM/material-ui-react-media-app",
     visit: "https://material-ui-react-media-app.netlify.app/",
-    id: 5,
+    id: 4,
   },
   {
     title: "VetConsult",
@@ -67,7 +57,7 @@ export const projects = [
     tags: ["HTML", "CSS", "SASS", "JavaScript", "Node.js"],
     source: "https://github.com/AbaniwoM/vetconsult-fe-pjt-46/tree/dev",
     visit: "https://vetconsultweb.netlify.app/",
-    id: 6,
+    id: 5,
   },
 ];
 
